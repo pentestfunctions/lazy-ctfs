@@ -1,6 +1,10 @@
 # lazy-ctfs
 A lot of lazy machines lately. This isn't for every box, this is just to rate how lazy the box is.
 
+- Make sure you have nuclei installed
+```go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest```
+
+
 To check if a machine is lazy:
 1. Set your target
    ```bash
