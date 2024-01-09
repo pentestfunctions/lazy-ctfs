@@ -25,3 +25,10 @@ To check if a machine is lazy:
    ```bash
    ~/go/bin/nuclei -l /tmp/dns_records.txt -fhr -uc -headless -as -silent
    ```
+
+## Extra spicy
+```bash
+cd ~ 
+wget https://github.com/projectdiscovery/nuclei-templates.git
+~/go/bin/nuclei -l /tmp/dns_records.txt -fhr -uc -headless -t ~/nuclei-templates -silent
+```
